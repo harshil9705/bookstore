@@ -78,13 +78,6 @@ app.get('/books/filter',async(req,res)=>{
     }
     
 })
-
-// app.get('/books/filter',async(req,res)=>{
-//     const {author} = req.query
-
-// })
-
-
 app.listen(8090,()=>{
     console.log('8090');
     db()
